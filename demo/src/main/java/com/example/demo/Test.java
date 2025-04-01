@@ -20,7 +20,9 @@ public class Test {
 
     @Override
     public String toString() {
-        return "dupa";
+        return "Test{" +
+                "test='" + test + '\'' +
+                '}';
     }
 
     @Override
