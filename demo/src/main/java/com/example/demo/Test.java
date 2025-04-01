@@ -32,9 +32,4 @@ public class Test {
         Test test1 = (Test) o;
         return Objects.equals(test, test1.test);
     }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(test);
-    }
 }
