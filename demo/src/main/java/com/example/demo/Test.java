@@ -16,6 +16,7 @@ public class Test {
 
     public void setTest(String test) {
         this.test = test;
+        System.out.println("master");
     }
 
     @Override
